@@ -2,6 +2,6 @@
 
 kg = int(input("Введите количество киллограммов: "))
 
-Metrs = a*0.01
+Centners = kg//100
 
-print(f"В {sm} сантиметрах {Metrs} метров")
+print(f"В {kg} килограмм {Centners} центнеров")
