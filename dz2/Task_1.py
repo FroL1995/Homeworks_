@@ -16,3 +16,5 @@
 my_list = [int(i) for i in input("Введите число").split()]
 
 print(sum(my_list))
+
+print('privet')
