@@ -9,7 +9,9 @@
 
 # summa = num_1 + num_2 + num_3
 
-# print(summa)
+# proisvedenie = num_1 * num_2 * num_3
+
+# print(summa, proisvedenie)
 
 # Вариант_2
 
