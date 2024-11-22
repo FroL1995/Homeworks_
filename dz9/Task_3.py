@@ -1,12 +1,14 @@
-number = 0
+# Подсчитать количество целых чисел в диапазоне от
+# 100 до 9999 у которых все цифры разные.
 
-while number != 7:
-    number = int(input('Введите число: '))
-    if number > 0 and number != 7:
-        print('Число больше нуля')
-    elif number < 0:
-        print('Число меньше нуля')
-    elif number == 0:
-        print('Число равно нулю')
-    else:
-        print('Счастливо!')
+count = 0
+
+for number in range(100, 10000):
+    digits = str(number)
+
+    if (digits[0] != digits[1]) != digits[2]):
+        # здесь дописать код самому
+        count += 1
+        print(digits)
+
+print(count)
